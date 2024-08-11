@@ -1,0 +1,54 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import "@/styles/globals.css";
+import Navbar from "@/components/navbar.astro";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<style>
+  #app {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 350px 250px 550px 50px;
+    grid-template-areas:
+	"header header header"
+    "hero hero hero"
+    "recentposts recentposts recentposts"
+    "featuredworks featuredworks featuredworks"
+    "footer footer footer";
+  }
+
+  
+
+
+</style>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <ViewTransitions />
+  </head>
+  <body>
+    <div id="app" class="relative min-h-screen h-full p-2 gap-2">
+		<header class={'[grid-area:header] border'}>
+			<Navbar />
+		</header> 
+		<slot />
+	  <footer class={'[grid-area:footer]  border'}>
+		Footer
+	  </footer>
+    </div>
+  </body>
+</html>
+
+<script></script>
