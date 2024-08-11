@@ -1,0 +1,14 @@
+---
+
+import {education} from "@/cv"
+
+---
+
+<section class="[grid-area:education] ">
+    <h2 class="border-b-2 border-black bebas-neue-regular text-3xl font-bold  leading-10">Education</h2>
+    <div class="mt-4">
+        <h3 class=""><span class="font-bold">{education.degree}</span> – {education.institution} – {education.location} <span
+                class="float-right">{education.graduation_date}</span></h3>
+        <p class="">{education.majors}</p>
+    </div>
+</section>

@@ -1,0 +1,106 @@
+{
+  "profile": {
+    "name": "Josias Montilla",
+    "title": "Data Analyst/Business Analyst",
+    "contact": {
+      "phone": "(333) 222 1111",
+      "email": "josiasmontillarosario@gmail.com",
+      "linkedin": "https://www.linkedin.com/AlexSample/",
+      "portfolio": "https://portfoliosample.com/",
+      "location": "Dallas, TX 75025"
+    }
+  },
+  "skills": [
+    "SQL (SQL Server, MySQL, PostgreSQL)",
+    "Microsoft Azure (DataBricks, Azure Data Lake, Azure Data Warehouse)",
+    "Python (Pandas, NumPy, SciPy, MatPlotLib)",
+    "PySpark",
+    "Tableau",
+    "Microsoft Power BI",
+    "Excel (VLookup, Conditional Formatting, Pivot Tables)"
+  ],
+  "projects": [
+    {
+      "title": "DATA SCIENCE JOB MARKET EDA",
+      "type": "Personal Project",
+      "location": "Philadelphia, PA",
+      "date": "April 2020",
+      "description": [
+        "Utilized Python to analyze 7000 data science job listings and gain insights on what it takes to land a job in analytics",
+        "Implemented Regex techniques to comb through the job descriptions and identified the key requirements",
+        "Aggregated and visualized the data by using pandas, matplotlib and wordcloud to compile a professional report"
+      ]
+    },
+    {
+      "title": "PACKAGE BENCHMARKING DASHBOARD",
+      "type": "Virtual Client’s Project",
+      "location": "Philadelphia, PA",
+      "date": "February 2020",
+      "description": [
+        "Created a dashboard with Power BI to help client compare between different employee benefit packages",
+        "Transformed and processed client’s data by using DAX and Excel to ensure data completeness and validity",
+        "Provided technical insights on how the client can fully utilize their data by introducing different technologies",
+        "Consulted with client to determine the best metrics to be displayed on final product"
+      ]
+    },
+    {
+      "title": "SENTIMENT ANALYSIS ON TWEETS",
+      "type": "Personal Project",
+      "location": "Philadelphia, PA",
+      "date": "December 2019",
+      "description": [
+        "Utilized R Studio to perform sentiment analysis on 14,000 tweeter reviews of six major airlines",
+        "Performed data cleaning and text analysis to successfully identified the major complaints for each airline",
+        "Applied regression and machine learning to produce a final model with an accuracy of 88% and lift of 34%"
+      ]
+    },
+    {
+      "title": "CUSTOMER SALES ANALYSIS",
+      "type": "Personal Project",
+      "location": "Philadelphia, PA",
+      "date": "November 2019",
+      "description": [
+        "Utilized SQL to extract data from 8 different related tables from customer sales databases using JOIN and VIEW",
+        "Transformed and filtered data by using aggregating and filtering function to improve reporting process",
+        "Loaded and visualized data with Python to identify key business intelligences that can improve sales performance"
+      ]
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "RE-INSURANCE ANALYST CO-OP",
+      "company": "CHUBB Insurance",
+      "location": "Philadelphia, PA",
+      "date_range": "March 2018 - October 2018",
+      "responsibilities": [
+        "Reconsolidated and logged premium internal re-insurance rates of major four accounts through First (Chubb’s proprietary internal MIS system)",
+        "Implemented a new reporting using Excel Pivot and VBA which help reduced processing time by 50%",
+        "Generated three process reports weekly for continuous accounts for financial and developmental analysis",
+        "Analyzed domestic and international reinsurance agreement contracts working to issue/update policies accordingly"
+      ]
+    },
+    {
+      "title": "LEASING ASSISTANT",
+      "company": "UACT Associates",
+      "location": "Philadelphia, PA",
+      "date_range": "December 2016 – February 2018",
+      "responsibilities": [
+        "Organized operational expenses checkbooks for 15 properties and audited the company’s financial statement",
+        "Promoted vacant properties through word of mouth and social media, resulting in successfully leased out 60% apartments",
+        "Organized house tours and maintained properties through monthly inspections",
+        "Served as a liaison between landlord, tenants, and building managers to resolve issues pertain to the properties"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Business",
+    "institution": "Drexel University",
+    "location": "Philadelphia, PA",
+    "graduation_date": "June 2020",
+    "majors": [
+      "Business Analytics",
+      "Operations and Supply-Chains Management",
+      "International Business"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+---
+import { projects } from "@/cv";
+---
+
+<section class="[grid-area:projects]">
+  <h2 class="border-b-2 border-black bebas-neue-regular text-3xl font-bold leading-10">
+    Projects
+  </h2>
+  <div class="mt-4">
+    {
+      projects.map((project) => (
+        <div class="mb-4 ">
+          <h3 class="">
+            <span class="font-bold">{project.title}</span> – {project.type}–{" "}
+            {project.location}
+            <span class="float-right">{project.date}</span>
+          </h3>
+          <ul class="list-disc list-inside ml-5 max-w-5xl ">
+            {project.description.map((desc) => (
+              <li>{desc}</li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</section>
+

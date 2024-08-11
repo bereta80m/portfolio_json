@@ -1,0 +1,28 @@
+---
+import {profile} from "@/cv"
+
+---
+
+
+<header class="[grid-area:header] flex md:flex-row flex-col  justify-between">
+    <div class="md:text-start text-center md:mt-0 mt-2">
+      <p class="">{profile.title}</p>
+      <h1 class="bebas-neue-regular  text-7xl font-bold">{profile.name}</h1>
+    </div>
+    <div class="md:text-end text-center md:mt-0 mt-2">
+      <p>
+        {profile.contact.phone} | <a
+          href="mailto:josiasmontillarosario@gmail.com"
+          class="text-blue-600">{profile.contact.email}</a>
+      </p>
+      <p>
+        <a href={profile.contact.linkedin} class="text-blue-600"
+          >{profile.contact.linkedin}</a>
+      </p>
+      <p>
+        <a href={profile.contact.portfolio} class="text-blue-600"
+          >{profile.contact.portfolio}</a>
+      </p>
+      <p class="mt-2">{profile.contact.location}</p>
+    </div>
+  </header>

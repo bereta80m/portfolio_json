@@ -1,0 +1,28 @@
+---
+import { work_experience } from "@/cv";
+---
+
+<section class="[grid-area:experience]">
+  <h2 class="border-b-2 border-black bebas-neue-regular text-3xl font-bold leading-10">
+    Work Experience
+  </h2>
+  <div class="mt-4">
+    {
+      work_experience.map((experience) => (
+        <div class="mb-4">
+          <h3 class="">
+            <span class="font-bold">{experience.title}</span> –{" "}
+            {experience.company} – {experience.location}{" "}
+            <span class="float-right">{experience.date_range}</span>
+          </h3>
+          <ul class="list-disc list-inside ml-5 max-w-4xl ">
+            {experience.responsibilities.map((resp) => (
+              <li>{resp}</li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
